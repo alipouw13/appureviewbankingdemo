@@ -1,7 +1,7 @@
 # Introduction
 This repository goes through 6 banking and compliance scenarios leveraging Microsoft Purview as an end-to-end discoverability, compliance and audit solution.
 
-## Microoft Purview
+## Microsoft Purview
 In the banking industry, organizations generally face challenges including: regulatory compliance, sensitive data handling, and fragmented data. 
 Microsoft Purview is a unified end-to-end data governance solution that provides enhanced discoverability and compliance (e.g., PCI DSS, GDPR) across your data estate.
 Microsoft Purview simplifies audits.
