@@ -6,6 +6,8 @@ In the banking industry, organizations generally face challenges including: regu
 Microsoft Purview is a unified end-to-end data governance solution that provides enhanced discoverability and compliance (e.g., PCI DSS, GDPR) across your data estate.
 Microsoft Purview simplifies audits.
 
+![alt text](https://github.com/alipoue13/appurviewbankingdemo/blob/main/purview-overview.jpg?raw=true)
+
 # Permissions and Pre-requisites
 - Microsoft Purview Enterprise. See [here]([url](https://learn.microsoft.com/en-us/purview/upgrade#upgrade)) for how to uprade from Microsoft Purview Free.
 - [Audit (Standard)]([url](https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-purview-service-description#microsoft-purview-audit-standard)): Microsoft 365 E5/A5/G5
