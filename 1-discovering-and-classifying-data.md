@@ -15,6 +15,14 @@ Below are the permissions required to execute this demo. They are not expansive 
 - Data Source Admin
 - Purview MI must have Data Owner access to SQL DB - see here for details
 
+## Considerations
+- Classifications are done based on the first 28 rows or 1 MB of data in a given column
+- Use Data Quality to define and enforce classification rules
+- There are 3 levels of scans (different by source) - you may select one or allow Purview to automatically apply the highest scan level for the source:
+    - L1: Captures basic information like file name, size, and location.
+    - L2: Extracts schema details for structured data types like database tables and file formats.
+    - L3: Performs a more thorough scan, including schema extraction and applying custom classification rules to a sampled portion of the data.
+
 ## Setup
 - Define collection architecture relevant to your customer. Leave one collection to be created during the demo. See [here]() in the reference section for a sample Figma collection architecture.
 - Pre-register and scan a few sources in hybrid environment (Azure SQL Database, on-prem SQL, and Azure Data Lake).
