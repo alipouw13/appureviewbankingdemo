@@ -2,11 +2,13 @@
 Imagine your bank operates across multiple data sources: Azure Data Lake, on-prem SQL Server, and SaaS platforms. You need to catalog and classify sensitive customer data.
 
 ## Key outcomes and talking points
-*Purview helps banks understand their data landscape and ensures sensitive data is identified *
+*Purview helps banks understand their data landscape and ensures sensitive data is identified*
 - Purview’s automated classification helps you quickly identify sensitive data, such as customer PII or credit card information, ensuring compliance with regulations like GDPR and PCI DSS.
 - With sensitivity labels, you can enforce access controls and track usage.
 
 ## Permissions
+Below are the permissions required to execute this demo. They are not expansive of the permissions required to interact with governance domains and data products. See [this repo](https://github.com/alipouw13/appurviewdemo/blob/main/0-purview_governance_permissions.md) for details on roles and permissions in Microsoft Purview.
+
 - Purview Administrator
 - Domain Administrator
 - Data Steward
@@ -14,7 +16,7 @@ Imagine your bank operates across multiple data sources: Azure Data Lake, on-pre
 - Purview MI must have Data Owner access to SQL DB - see here for details
 
 ## Setup
-- Define collection architecture relevant to your customer. Leave one collection to be created during the demo.
+- Define collection architecture relevant to your customer. Leave one collection to be created during the demo. See [here]() in the reference section for a sample Figma collection architecture.
 - Pre-register and scan a few sources in hybrid environment (Azure SQL Database, on-prem SQL, and Azure Data Lake).
 - Create a scan-set specific to your organization
 - Use datasets containing mock financial information (e.g., customer PII, transaction data).
