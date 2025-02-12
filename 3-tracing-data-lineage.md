@@ -7,8 +7,13 @@ Data lineage builds confidence in data accuracy and simplifies audit trails. Thi
 - Show end-to-end data lineage from ingestion to reporting in Purview.
 - Discuss the ability to provide regulators with a transparent view of data flow.
 - Discuss how lineage is limited to select sources
+- DIscuss Live-view availability and value
 
 ## Talking points
+
+- With Purview, you can track data from ingestion to reporting, ensuring transparency for regulators and internal audits.
+- Lineage helps you quickly identify and resolve data quality issues
+- Live view enables your organization to 
 
 ## Permissions
 
