@@ -45,19 +45,18 @@ Please note that the security groups follow the following naming convention. Ple
 ## Steps
 
 1. Navigate to the Microsoft Purview portal and select Data Map.
-2. Go over Data Map purpose and collection architecture.
-    - Highlights:
-    - Review collection architecture best practices here
+2. Go over Data Map purpose and best practice architecture.
+    - Highlights: Review Data Map collection architecture best practices
 3. Create a collection and review the roles.
-    - Highlights
+    - Highlights: Data Map and collection roles
 4. Show the list of registered sources (e.g., Azure Data Lake, on-prem SQL Server).
     - Highlights: Can only register a source once - one fabric registration per tenant.
 5. Show how to register another source.
 6. Run a pre-configured scan on one of the sources.
     - Highlights:
-        - Reduce cost associated with a scan
-        - Scheduled scans, increamental scans and full scans
-        Scanning capabilities
+        - Scanning capabilities: scoped scans, classifications/custom classifications
+        - Scoped scan reduces time taken for a scan
+        - Differnece between scheduled scans, increamental scans and full scans
 7. Navigate to Assets and demonstrate how Purview has cataloged the data.
     - Highlights:
         - Capabilities by source type
@@ -66,4 +65,8 @@ Please note that the security groups follow the following naming convention. Ple
 
 ## Useful Materials
 
-- Video walkthrough here
+- [Data Map domain and collection architecture best practices](https://learn.microsoft.com/en-us/purview/concept-best-practices-collections)
+- [Unified Catalog data asset search](https://learn.microsoft.com/en-us/purview/unified-catalog-search)
+- [Sensitivity labels in the Data Map](https://learn.microsoft.com/en-us/purview/how-to-automatically-label-your-content)
+- [Classification of Data Map assets](https://learn.microsoft.com/en-us/purview/concept-classification)
+- [Purview Roles and permissions](https://learn.microsoft.com/en-us/purview/data-governance-roles-permissions)
