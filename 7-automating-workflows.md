@@ -5,16 +5,16 @@ Workflows allow organizations to automate and standardize data governance proces
 ## Key outcomes and talking points
 
 - Showcase Increased Efficiency
-    - Automates governance tasks (e.g., data access approvals, classification changes).
-    - Reduces manual work and administrative overhead.
+  - Automates governance tasks (e.g., data access approvals, classification changes).
+  - Reduces manual work and administrative overhead.
 - Standardized Compliance
-    - Ensures governance workflows align with internal policies and external regulations.
-    - Tracks approvals and decisions for audit purposes.
+  - Ensures governance workflows align with internal policies and external regulations.
+  - Tracks approvals and decisions for audit purposes.
 - Show how workflows enable improved Data Steward Collaboration
-    - Facilitates role-based data access requests, approvals, and metadata changes.
-    - Provides a structured process for data owners and stewards.
+  - Facilitates role-based data access requests, approvals, and metadata changes.
+  - Provides a structured process for data owners and stewards.
 - Show how workflows integrate with the Microsoft Ecosystem
-    - Works seamlessly with Microsoft Purview Data Catalog, Microsoft Entra ID, and Azure Logic Apps for advanced automation.
+  - Works seamlessly with Microsoft Purview Data Catalog, Microsoft Entra ID, and Azure Logic Apps for advanced automation.
 
 ## Permissions
 
@@ -31,7 +31,6 @@ To set up and run workflows in Microsoft Purview, ensure the following permissio
 - User assigned Purview Admin or Workflow Admin role.
 - Necessary Azure roles assigned (e.g., Purview Data Reader for metadata access).
 - Microsoft Entra ID (Azure AD) for user authentication.
-
 
 ## Steps
 
