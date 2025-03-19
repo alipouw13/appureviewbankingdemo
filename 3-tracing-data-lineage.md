@@ -13,7 +13,7 @@ Data lineage builds confidence in data accuracy and simplifies audit trails. Thi
 
 - With Purview, you can track data from ingestion to reporting, ensuring transparency for regulators and internal audits.
 - Lineage helps you quickly identify and resolve data quality issues
-- Live view enables your organization to 
+- Live view enables users with the proper permissions to find eligible resources and their data assets in the catalog without setup or scanning
 
 ## Permissions
 
@@ -21,14 +21,18 @@ Below are the permissions required to execute this demo. They are not expansive 
 
 ## Setup
 
-- Download this dataset representing banking customer transactions.
-- Create 4 storage accounts: landing, bronze, silver, gold
-- Create an ADF instance
-- Create a Fabric capacity
-- Create a pipeline moving data from landing to gold containers using ADF
-- Create a sample Power BI report and semantic model using the data from the gold layer. See below for a sample architecture:
+- Download the _bank_ excel in the [reference folder of this repo](https://github.com/alipouw13/appureviewbankingdemo/tree/main/reference) dataset representing banking customer transactions. Connect directly to excel or create a storage blob and upload the excel sheet there.
+- Create a Fabric capacity (use a [Trial capacity](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial) for free)
+- Create 3 lakehouses in Fabric: bronze, silver, gold
+- Create 3 notebooks to manipulate data across layers
+- Create a pipeline to orchestrate data movement from source to gold
+- Create a sample Power BI report and semantic model using the data from the gold layer. See below for a sample [architecture](https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture):
 
-- Register and scan each of the above sources.
+![alt](https://github.com/alipouw13/appurviewbankingdemo/blob/main/images/architecture.png)
+
+- Register and scan each of the above sources. Observe live view capabilities of the Lakehouses before scanning.
+
+_See this repo for a sample metadata driven process using the nyc taxi data. Adjust the source to point to banking data if desired_
 
 **Bonus**
 
@@ -42,4 +46,4 @@ Below are the permissions required to execute this demo. They are not expansive 
 
 ## Useful materials
 
-- Video walkthrough here
+- [Live view in Purview](https://learn.microsoft.com/en-us/purview/live-view)
