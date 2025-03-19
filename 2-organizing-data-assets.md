@@ -33,7 +33,8 @@ Below are the permissions required to execute this demo. They are not expansive 
 
 ## Setup
 
-- Setup RBAC Groups for data strategy roles in one sample governance domain (eg: Retail Banking):
+Setup RBAC Groups for data strategy roles in one sample governance domain (eg: Retail Banking):
+  
 | Purview Roles             | Data Strategy Role(s)                  | Data Management Role       | Permissions                                                                 | Sample Security Group                  |
 |---------------------------|----------------------------------------|----------------------------|-----------------------------------------------------------------------------|----------------------------------------|
 | Governance Admin          | Retail Banking Admins                 | (Governance) Governance Admin           | Full access to governance features, including creating and managing domains | rb-pview-apfsipurviewdemo-governanceadmin-prod-us    |
@@ -45,7 +46,7 @@ Below are the permissions required to execute this demo. They are not expansive 
 
 Please note that the security groups follow the following naming convention. Please update this naming convention as you see fit.
 
-*< lobprefix >-< resource >-< organization/applicaiton name>-< role >-< environment >*
+*< lobprefix >-< resource >-< organization/applicaiton name >-< role >-< environment >*
 
 ## Steps
 
@@ -54,7 +55,7 @@ Please note that the security groups follow the following naming convention. Ple
     - Domain Name: "Retail Banking Governance"
     - Description: "Manages governance for customer accounts, transactions, and retail banking operations."
     - Owner: Assign to a specific team or individual (e.g., Retail Banking IT Team).
-    - Type: Functional unit (Sales, Marketing...), **LOB (Xbox, office...)**, Data domain (customers, employees, executives), Regulatory (GDPR), Project
+    - Type: Functional unit (Sales, Marketing...), LOB (Xbox, office...), Data domain (customers, employees, executives), Regulatory (GDPR), Project
     - Repeat the process to create additional domains, such as:
         - Corporate Banking Governance
         - Risk Management Governance
@@ -67,4 +68,7 @@ Please note that the security groups follow the following naming convention. Ple
 
 ## Useful Materials
 
-- Video walkthrough here
+- [What are Governance Domains](https://learn.microsoft.com/en-us/purview/concept-governance-domain)
+- [Create and manage Governance Domains](https://learn.microsoft.com/en-us/purview/how-to-create-manage-governance-domains)
+- [What are Data Products](https://learn.microsoft.com/en-us/purview/concept-data-products)
+- [Create and manage Data Products](https://learn.microsoft.com/en-us/purview/how-to-create-manage-data-products)
