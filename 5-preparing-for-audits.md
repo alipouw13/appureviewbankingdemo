@@ -16,7 +16,7 @@ For the purposes of this demo, you need the **Audit Manager** role to view any a
 
 ## Setup
 
-- Requires an E5 or similar license (more informatio here)
+- Requires an E5 or similar license (more informatio [here](https://learn.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-purview-service-description))
 - Enable a compliance dashboard in Purview mapped to PCI DSS or GDPR.
 - Include a mix of compliant and non-compliant datasets.
 
