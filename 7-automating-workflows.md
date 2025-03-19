@@ -46,4 +46,4 @@ To set up and run workflows in Microsoft Purview, ensure the following permissio
 
 ## Useful Materials
 
-- Video walkthrough here
+- [Workflows](https://learn.microsoft.com/en-us/purview/legacy/concept-workflow)
