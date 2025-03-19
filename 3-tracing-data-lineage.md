@@ -32,7 +32,7 @@ Below are the permissions required to execute this demo. They are not expansive 
 
 - Register and scan each of the above sources. Observe live view capabilities of the Lakehouses before scanning.
 
-_See this repo for a sample metadata driven process using the nyc taxi data. Adjust the source to point to banking data if desired_
+_See [this repo](https://github.com/alipouw13/apfsifabric_aiskillsdemo) for a sample metadata driven process using the nyc taxi data. Adjust the source to point to banking data if desired_
 
 **Bonus**
 
