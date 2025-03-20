@@ -34,11 +34,6 @@ Below are the permissions required to execute this demo. They are not expansive 
 
 _See [this repo](https://github.com/alipouw13/apfsifabric_aiskillsdemo) for a sample metadata driven process using the nyc taxi data. Adjust the source to point to banking data if desired_
 
-**Bonus**
-
-- Create a pipeline in Fabric moving data from landing to gold lakehouses
-- Create another semantic model referencing the data in the gold lakehouse
-
 ## Steps
 
 - Navigate to the Data Map > Data assets

@@ -1,4 +1,4 @@
-# Scenario 7: Automate workflow with Microsoft Purview Workflows
+# Scenario 5: Automate workflow with Microsoft Purview Workflows
 
 Workflows allow organizations to automate and standardize data governance processes, reducing manual effort and ensuring compliance.
 
