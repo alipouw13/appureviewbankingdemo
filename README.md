@@ -30,3 +30,6 @@ Microsoft Purview is a unified end-to-end data governance solution that provides
     - Populate the glossary with terms relevant to banking.
 5. Integrated Systems:
     - Ensure integration with Microsoft Fabric for showcasing downstream use cases.
+  
+## Notes
+_Please note this repo is still being updated. Feel free to propose suggestions!_
