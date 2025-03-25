@@ -29,7 +29,7 @@ To set up and run workflows in Microsoft Purview, ensure the following permissio
 ## Setup
 
 - Microsoft Purview account configured
-- Necessary Azure roles assigned (2 user accounts, one with Workflow admin and Data steward, one with Catalog reader)
+- Necessary roles assigned to appropriate users (2 user accounts, one with Workflow admin and Data steward, one with Catalog reader)
 
 ## Steps
 
