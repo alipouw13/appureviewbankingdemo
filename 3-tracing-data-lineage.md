@@ -19,6 +19,13 @@ Data lineage builds confidence in data accuracy and simplifies audit trails. Thi
 
 Below are the permissions required to execute this demo. They are not expansive of the permissions required to interact with governance domains and data products. See [this repo](https://github.com/alipouw13/appurviewdemo/blob/main/0-purview_governance_permissions.md) for details on roles and permissions in Microsoft Purview.
 
+| Purview Roles             | Data Strategy Role(s)                  | Data Management Role       | Permissions                                                                 | Sample Security Group                  |
+|---------------------------|----------------------------------------|----------------------------|-----------------------------------------------------------------------------|----------------------------------------|
+|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+
 ## Setup
 
 - Download the _bank_ excel in the [reference folder of this repo](https://github.com/alipouw13/appureviewbankingdemo/tree/main/reference) dataset representing banking customer transactions. Connect directly to excel or create a storage blob and upload the excel sheet there.

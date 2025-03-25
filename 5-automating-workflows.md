@@ -18,12 +18,13 @@ Workflows allow organizations to automate and standardize data governance proces
 
 ## Permissions
 
-To set up and run workflows in Microsoft Purview, ensure the following permissions are granted:
+To set up and run workflows in Microsoft Purview, ensure the following permissions are granted from the _Governance Domains > Roles_ for each specific governance domain.
 
-| Role              | Permissions Required                        | Where to Assign                                      |
-|-------------------|---------------------------------------------|------------------------------------------------------|
-| Workflow Administrator    | Create, update, delete workflows            |  Governance Domains > Roles                 |
-| Data Steward / Datasource Admin              | Approve requests from workflows | Governance Domains > Roles           |
+| Purview Roles             | Data Strategy Role(s)                  | Data Management Role       | Permissions                                                                 | Sample Security Group                  |
+|---------------------------|----------------------------------------|----------------------------|-----------------------------------------------------------------------------|----------------------------------------|
+| Workflow Administrator   |                                       |                                |      Create, update, delete workflows      |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+| Data Steward / Datasource Admin  |                                       |                                |  Approve requests from workflows               |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+
 
 ## Setup
 

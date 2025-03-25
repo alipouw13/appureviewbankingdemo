@@ -47,6 +47,13 @@ Governance policies and sensitivity labels protect sensitive data and ensure com
     - Information Protection administrator
     - Security administrator
 
+| Purview Roles             | Data Strategy Role(s)                  | Data Management Role       | Permissions                                                                 | Sample Security Group                  |
+|---------------------------|----------------------------------------|----------------------------|-----------------------------------------------------------------------------|----------------------------------------|
+|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+
 ## Setup
 
 - In Unified Catalog, create a governance domain and 2 data products
