@@ -24,7 +24,7 @@ To set up and run workflows in Microsoft Purview, ensure the following permissio
 |---------------------------|----------------------------------------|----------------------------|-----------------------------------------------------------------------------|----------------------------------------|
 | Workflow admin            | Retail Banking Data Stewards, Retail Banking Data Product Owners    | (Governance) Data Steward |     Create, update, delete workflows      |     rb-pview-apfsipurviewdemo-datasteward-prod-us |
 | Data steward | Retail Banking Data Stewards, Retail Banking Data Product Owners      |   (Governance) Data Steward   |  Approve requests from workflows               |      rb-pview-apfsipurviewdemo-datasteward-prod-us |
-| Unified Catalog Reader | Retail Banking Data Consumer  | Data Consumer | Explore Unified Catalog and request access to certain data assets | rb-pview-apfsipurviewdemo-dataconsumer-prod-us |
+| Data Catalog Reader | Retail Banking Data Consumer  | Data Consumer | Explore Unified Catalog and request access to certain data assets | rb-pview-apfsipurviewdemo-dataconsumer-prod-us |
 
 ## Setup
 
@@ -36,13 +36,13 @@ To set up and run workflows in Microsoft Purview, ensure the following permissio
 1. As a workflow admin, navigate to Purview Workflows (Solutions > Workflows)
 2. Select new workflow > Data Access Approval
 3. Configure Workflow Parameters
-    - Workflow Name
+    - Workflow name
     - Set triggers (eg: when data is classified as Confidential)
     - Add approvers
     - Add notifications for approval/rejection
     - If approved, grant access to resource
 4. Apply workflow
-5. Browse Unified Catalog as a Unified Catalog reader and request access to the resource type configured to the workflow
+5. Browse Unified Catalog as a Catalog reader and request access to the resource type configured to the workflow
 6. Switch to the workflow admin account to approve the request
 7. Notice access change for the Catalog reader user
 
