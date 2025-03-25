@@ -28,7 +28,7 @@ Below are the permissions required to execute this demo. They are not expansive 
 - Create a pipeline to orchestrate data movement from source to gold
 - Create a sample Power BI report and semantic model using the data from the gold layer. See below for a sample [architecture](https://learn.microsoft.com/en-us/fabric/onelake/onelake-medallion-lakehouse-architecture):
 
-![alt](https://github.com/alipouw13/appurviewbankingdemo/blob/main/images/architecture.png)
+![alt](https://github.com/alipouw13/appureviewbankingdemo/blob/main/images/architecture.png)
 
 - Register and scan each of the above sources. Observe live view capabilities of the Lakehouses before scanning.
 
@@ -37,7 +37,7 @@ _See [this repo](https://github.com/alipouw13/apfsifabric_aiskillsdemo) for a sa
 ## Steps
 
 - Navigate to the Data Map > Data assets
-- Select the lineage tab on the data asset
+- Select the lineage tab on the data assets - show lineage from the Power BI report back to source
 
 ## Useful materials
 
