@@ -30,10 +30,12 @@ Governance policies and sensitivity labels protect sensitive data and ensure com
 
 ## Permissions
 
+Please note that this demo is scoped to the 'Retail Banking' governance domain.
+
 1. To create governance policies on data products, you need the _Data product owner_ role in the Unified Catalog. To note: Access policies can be applied on 3 levels in the unified catalog - see below for permissions required.
-    - Governance domain owner (view and manage policies at the governance domain level)
-    - Data product owner (view and manage policies at the data product level)
-    - Data steward (view and manage policies in critical data elements (CDE) or glossary terms)
+    - Governance domain owner
+    - Data product owner
+    - Data steward
 2. To create and manage sensitivity lables, you need one of the following roles. See [here](https://learn.microsoft.com/en-us/purview/get-started-with-sensitivity-labels#permissions-required-to-create-and-manage-sensitivity-labels) for more information.
     - Information Protection
     - Information Protection Admins
@@ -47,12 +49,13 @@ Governance policies and sensitivity labels protect sensitive data and ensure com
     - Information Protection administrator
     - Security administrator
 
+Please note that governance domain permissions are highlighted below. The Security and Complaince roles required (listed above) require additional role alignment and security groups defined.
+
 | Purview Roles             | Data Strategy Role(s)                  | Data Management Role       | Permissions                                                                 | Sample Security Group                  |
 |---------------------------|----------------------------------------|----------------------------|-----------------------------------------------------------------------------|----------------------------------------|
-|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
-|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
-|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
-|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+|   Governance domain owner  | Retail Banking Data Stewards, Retail Banking Data Product Owners   | (Governance) Data Steward, Publisher    | Manage policies at the governance domain level    | rb-pview-apfsipurviewdemo-datasteward-prod-us, rb-pview-apfsipurviewdemo-publisher-prod-us              |
+|   Data product owner | Retail Banking Data Stewards, Retail Banking Data Product Owners       | (Governance) Data Steward, Publisher, Producer         | View and manage policies at the data product level       | rb-pview-apfsipurviewdemo-datasteward-prod-us, rb-pview-apfsipurviewdemo-publisher-prod-us, rb-pview-apfsipurviewdemo-producer-prod-us         |
+|   Data steward   | Retail Banking Data Stewards, Retail Banking Data Product Owners      | (Governance) Data Steward   | View and manage policies in critical data elements (CDE) or glossary terms   |   rb-pview-apfsipurviewdemo-datasteward-prod-us
 
 ## Setup
 

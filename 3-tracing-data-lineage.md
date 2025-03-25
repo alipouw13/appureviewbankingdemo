@@ -7,7 +7,7 @@ Data lineage builds confidence in data accuracy and simplifies audit trails. Thi
 - Show end-to-end data lineage from ingestion to reporting in Purview.
 - Discuss the ability to provide regulators with a transparent view of data flow.
 - Discuss how lineage is limited to select sources
-- DIscuss Live-view availability and value
+- Discuss Live-view availability and value
 
 ## Talking points
 
@@ -21,10 +21,13 @@ Below are the permissions required to execute this demo. They are not expansive 
 
 | Purview Roles             | Data Strategy Role(s)                  | Data Management Role       | Permissions                                                                 | Sample Security Group                  |
 |---------------------------|----------------------------------------|----------------------------|-----------------------------------------------------------------------------|----------------------------------------|
-|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
-|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
-|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
-|                           |                                       |                                |                                                   |                      rb-pview-apfsipurviewdemo-governanceadmin-prod-us |
+| Governance Admin          | Retail Banking Admins                 | (Governance) Governance Admin           | Full access to governance features, including creating and managing domains | rb-pview-apfsipurviewdemo-governanceadmin-prod-us    |
+| Governance Domain Curator | Retail Banking Data Stewards, Retail Banking Data Product Owners                | (Governance) Data Steward               | Manage data assets and policies within a specific domain                    | rb-pview-apfsipurviewdemo-datasteward-prod-us           |
+| Governance Domain Owner   | Retail Banking Data Stewards, Retail Banking Data Product Owners                  | (Governance) Data Steward, Publisher    | Ownership of a specific governance domain                                   | rb-pview-apfsipurviewdemo-datasteward-prod-us, rb-pview-apfsipurviewdemo-publisher-prod-us              |
+| Data Product Owner        | Retail Banking Data Stewards, Retail Banking Data Product Owners                | (Governance) Data Steward, Publisher, Producer         | Manage data products and associated assets                                  | rb-pview-apfsipurviewdemo-datasteward-prod-us, rb-pview-apfsipurviewdemo-publisher-prod-us, rb-pview-apfsipurviewdemo-producer-prod-us         |
+| Policy Author (Domain-level) | Retail Banking Admins                                                          | (Governance) Governance Admin |                        Create and manage policies within a specific domain                         | RetailBanking-PolicyAuthor             |
+| Data steward   | Retail Banking Data Stewards, Retail Banking Data Product Owners                  | (Governance) Data Steward   |    Create, update, and read artifacts and policies within their governance domain. Can also read artifacts from other governance domains. *Requires Data Map permissions to read those data assets in Data Map.*                                | cib-pview-apfsipurviewdemo-datasteward-prod-us            |
+| Data source administrator       | Contoso International Bank IT Admins                | (Governance) Data Steward, Publisher, Producer         |      Ability to manage data sources and scans. To create new scan rules, the user must be also granted as either Data reader or Data curator roles.                           | cib-pview-apfsipurviewdemo-datasteward-prod-us   |
 
 ## Setup
 
